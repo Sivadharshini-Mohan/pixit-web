@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('/assets/images/login-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #A2E3B2;
+}
+
+.card {
+    backdrop-filter: blur(5px);
+    border-radius: 24px;
+    margin: 200px;
+    width: 500px;
+    height: 500px;
+    background: #FFFFFF40;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.cardHeading {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 64px;
+    color: #111;
+}
+
+.cardSubHeading {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 64px;
+    color: #000
+}
+
+.cardContent {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333
+}
+
+.googleButton {
+    cursor: pointer;
+    width: 459;
+    height: 58;
+    border-radius: 100px;
+    gap: 10px;
+    border: 1px solid #E2E2E2;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px
+}
+
+.googleTxt {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25.95px;
+}

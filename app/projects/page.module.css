@@ -1,0 +1,53 @@
+.container{
+    width:90vw;
+}
+
+.spaceBetween{
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+
+.heading{
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+display: flex;
+
+
+}
+
+.username{
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 32px;
+line-height: 64px;
+letter-spacing: 0%;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 350px;
+    width:1250px;
+    overflow: scroll;
+}
+
+.projectCount{
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top:5px ;
+    padding-left: 2px;
+   color: var(--neutral-slate-500-icons, #64748B);
+}
+
+

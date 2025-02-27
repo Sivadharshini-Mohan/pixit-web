@@ -1,0 +1,114 @@
+.container{
+    width:90vw;
+}
+.projectName{
+width: 159;
+height: 42;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+padding-top: 1px;
+padding-right: 10px;
+padding-bottom: 1px;
+padding-left: 10px;
+gap: 10px;
+background: linear-gradient(86.01deg, rgba(82, 138, 154, 0.9) 0%, rgba(51, 102, 111, 0.9) 100%);
+color: #FFF;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+letter-spacing: 0%;
+
+}
+
+.projectContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.backTxt{
+  
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #00A16B;
+
+
+}
+
+.manipulation{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+}
+
+.addTxt{
+font-weight: 800;
+font-size: 14px;
+line-height: 20px;
+color: #00A16B;
+
+
+}
+
+.memberContainer{
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.memberList{
+    width: 656px;
+height: 320px;
+background-color: #FFF;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+overflow: scroll;
+
+}
+
+.memberListData{
+    display: flex;
+    align-items: center;
+    width: 656;
+height: 72;
+justify-content: space-between;
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 20px;
+padding-left: 24px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-width: 1px;
+border-bottom: 1px solid #E2E8F0;
+box-shadow: 0px 0px 1px 0px #0F172A1F;
+
+
+}
+
+.name{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+
+    color: #475569;
+
+}
+
+.email{
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 0px;
+color: var(--Text-text-light, #94A3B8);
+}
